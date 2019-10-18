@@ -47,7 +47,7 @@ module.exports = [(env) => {
                 },
                 devServer: {
                     contentBase: path.resolve(__dirname, 'debug'),
-                    publicPath: '/debug/',
+                    publicPath: '/',
                     watchContentBase: false,
                     hotOnly: true,
                     overlay: true,
